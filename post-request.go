@@ -10,24 +10,27 @@ func main() {
 	//					"id" : 1,
 	//					"first_name" : "Taras",
 	//					"last_name" : "Tarkovskyi",
-	//					"dob" : "January 23d",
-	//					"address_and_phone" : "Kyiv, 0933115485"
+	//					"dob" : "1992-01-23T00:00:00Z",
+	//					"home_address" : "Kyiv",
+	//					"cellphone" : "0933115485"
 	//				}`
 
 	//jsonMessage := `{
 	//					"id" : 2,
 	//					"first_name" : "Nikita",
 	//					"last_name" : "Tarkovskyi",
-	//					"dob" : "January 23d",
-	//					"address_and_phone" : "Kyiv, 33333333"
+	//					"dob" : "1992-01-23T00:00:00Z",
+	//					"home_address" : "Kyiv",
+	//					"cellphone" : "0933115485"
 	//				}`
 
 	jsonMessage := `{
 						"id" : 3,
 						"first_name" : "Sergey",
 						"last_name" : "Onishenko",
-						"dob" : "December 28th",
-						"address_and_phone" : "Kyiv, 5555555555"
+						"dob" : "1990-12-28T00:00:00Z",
+						"home_address" : "Kyiv",
+						"cellphone" : "345345345"
 					}`
 
 	client := &http.Client{}
